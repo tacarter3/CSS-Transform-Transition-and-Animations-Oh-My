@@ -1,1 +1,37 @@
+button {
+background-color: ghostwhite;
+color: black;
+transition-property: background-color, color;
+transition-duration: 2s;
+transition-delay: 0s;
 
+}
+
+button:hover {
+  color: ghostwhite;
+}
+
+
+ img:hoover {
+  animation-duration: 3s;
+  animation-name: article;
+ }
+  
+/* article {
+  animation-duration: 3s;
+  animation-name: article; */
+  
+
+  @keyframes article {
+    from {
+      margin-bottom: 0%;
+      width: 10em;
+      
+    }
+  
+    to {
+      margin-top: 10%;
+      width: 10em;
+    }
+  }
+ 
